@@ -1,0 +1,26 @@
+{
+  "name": "jwt_tokenlogin",
+  "version": "1.0.0",
+  "description": "> 토큰 기반 시스템은 stateless 합니다. 무상태. 즉 상태유지를 하지 않는다는 것이죠. 이 시스템에서는 더 이상 유저의 인증 정보를 서버나 세션에 담아두지 않습니다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illaShip/JWT_TokenLogin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illaShip/JWT_TokenLogin/issues"
+  },
+  "homepage": "https://github.com/illaShip/JWT_TokenLogin#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.13",
+    "morgan": "^1.9.0"
+  }
+}
